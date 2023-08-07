@@ -1,0 +1,118 @@
+/* @font-face {
+    font-family: 'digital-7';
+    src: url('digital-7/digital-7.ttf');
+} */
+
+.abs {
+    display: flex;
+    padding-right: 20px;
+    position: relative;
+}
+
+.abs2 {
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: large;
+    color: rgb(218, 221, 208);
+}
+
+.abs2:hover {
+    text-decoration-line: underline;
+    color: rgb(255, 255, 255);
+}
+
+.gambar {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+    background-image: url('./masjid7.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h5 {
+    /* border: 1px solid; */
+    padding: 5px;
+}
+
+/*  sholat 5 waktu */
+.jam {
+    position: relative;
+    margin-top: 300px;
+}
+
+.bg5 {
+    background-color: #1C315E;
+}
+
+/* jam besar */
+.timer {
+    font-family: 'digital-7';
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+@media (max-width: 991px) {
+    .timer {
+        display: flex;
+        justify-content: center;
+        top: 80px;
+        position: relative;
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+.timer .value {
+    align-items: center;
+}
+
+/* 00 : 00 : 00 */
+.waktu {
+    margin: -80px 0 0 0px;
+    padding: 0 2px;
+    font-size: 80px;
+    font-weight: 900px;
+}
+
+/* HARI Tanggal Waktu */
+.timer2 {
+    float: right;
+    font-size: larger;
+    margin: -100px 50px;
+}
+
+@media(max-width: 991px) {
+    .timer2 {
+        float: none;
+        margin-top: 70px;
+        text-align: center;
+        justify-items: center;
+    }
+}
+
+
+.text-bold {
+    align-items: center;
+}
+
+
+.value {
+    padding: 10px 0px;
+}
+
+.time {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.text-bold {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.actived {
+    background-color: rgb(209, 209, 209);
+}
